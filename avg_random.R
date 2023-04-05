@@ -13,7 +13,7 @@ avg_random<-function(sam){
   alphapar2 <- c(1, 1)
   betapar2 <- c(1, 1)
   
-  
+  #generate the epidemic data until the convergence to the posterior distribution has reached
   repeat{
     sir_mod0 <- epidata(type = "SIR", n = sam, tmax = 15, sus.par = 0.2, beta = 2, infperiod = lambda,
                         x = x, y = y)
