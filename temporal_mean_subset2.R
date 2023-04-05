@@ -62,7 +62,7 @@ temporal_mean<-function(sam){
   
   
   
-  ##find mean by parameter esimtes 
+  ##find mean by parameter estimates 
   alpha_t_mean<-mean(c(sum_t1_spatial$statistics[1,1],sum_t2_spatial$statistics[1,1]))
   
   alpha_sd_t_mean<-mean(c(sum_t1_spatial$statistics[1,2],sum_t2_spatial$statistics[1,2]))
