@@ -4,7 +4,9 @@ library(purrr)
 library(EpiILM)
 library(ggplot2)
 
-
+##function for subset and finding absolute biases 
+##input=sample size (n), subset percentage (percent)
+##output= absolute biases of all parameter estimates
 corner_subset<-function(sam,percent){
   x<- runif(sam,0,sqrt(sam))
   y<- runif(sam,0,sqrt(sam))
