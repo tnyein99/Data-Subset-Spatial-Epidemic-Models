@@ -101,4 +101,4 @@ Concerning the second scenario, we devise two methods, referred to as **temporal
 
 # Code Implementation
 
-For this research, we use R and ARC (slurm cluster computing system from University of Calgary). Hence, we need an R and slurm scripts to implement the simulations. We used cluster computing since it makes the computational process faster and more efficent. 
+For this research, we use R and ARC (slurm cluster computing system from University of Calgary). Hence, we need an R and slurm scripts to implement the simulations. We used cluster computing since it makes the computational process faster and more efficent. For more information about R code functions such as epdidata and epimcmc, you can refer to the epiILM documentation on this channel.
