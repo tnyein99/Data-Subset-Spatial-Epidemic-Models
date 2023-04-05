@@ -1,6 +1,6 @@
 # Introduction
 
-I am Thet Htet Chan Nyein, a graduate student at the University of Calgary. I have created this GitHub repository to share the code that 
+I am Thet H. Nyein, a graduate student at the University of Calgary. I have created this GitHub repository to share the code that 
 I have developed as part of my Master's thesis. My research project is centered around the implementation of data subset-based techniques to 
 infer spatial individual-level epidemic models.
 
