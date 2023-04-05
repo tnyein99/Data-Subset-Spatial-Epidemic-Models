@@ -36,7 +36,7 @@ temporal_mean<-function(sam){
   
   ##subset 1: minimum infection time to 5
   ##subset 2: 6 to 10
-  ##subset 2: 11 to 15
+  ##subset 3: 11 to 15
   sum_100p_spatial<-summary(mcmc_out100p, start = 10001)
   
   
