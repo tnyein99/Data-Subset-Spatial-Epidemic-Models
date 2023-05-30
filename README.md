@@ -83,15 +83,16 @@ by using infection time points.
 
 ## Spatial Subset Methods 
 
+
 We implemented the **k-percent center** method and observed the relationship between population size and effective subset percentage. We selected a square containing $k%$ of the original epidemic data from the center of the $\sqrt{n}\times\sqrt{n}$ square where $k=10%,20%,30%,40%,50%,64%$, and computed $E_{SS}(.)$ and $SD_{SS}(.)$ using posterior means and standard deviations of the subset.
 
 To investigate the impact of location of the spatial subset data on absolute biases, we developed a new method referred to as \emph{k-percent ll} method. This method involves obtaining a subset from the lower left corner of the square from 0 to $\sqrt{nk}$ where $k=10\%,20\%,30\%,40\%,50\%,64\%$, and computed $E_{SS}(.)$ and $SD_{SS}(.)$ using posterior means and standard deviations of the subset.
 
 We also expanded two more methods named **k-percent corner** method and **k-percent random** method to incorporate additional subset areas of different sizes. We computed $E_{SS}(.)$ and $SD_{SS}(.)$ using posterior means and standard deviations of each subset.
 
-To explore the effect of including different subset percentages on inference, we developed the **average** method, which selects four subsets each containing approximately $25\%$, $36\%$, $49\%$, and $64\%$ of the population. We computed $E_{SS}(.)$ and $SD_{SS}(.)$ using posterior means and standard deviations of each subset and obtained the average of these estimates.
+To explore the effect of including different subset percentages on inference, we developed the **average center** and **average ll**methods, which selects four subsets each containing approximately $25\%$, $36\%$, $49\%$, and $64\%$ of the population. Those subset squares are chosen from the center and lower-left corner of the square. For each method, we computed $E_{SS}(.)$ and $SD_{SS}(.)$ using posterior means and standard deviations of each subset and obtained the average of these estimates.
 
-Finally, we examined whether incorporating considering different subset areas in the square grid would improve the **average** method. Therefore, we established two methods named, **average corner** and **average random** methods. We computed the $E_{SS}(.)$ and $SD_{SS}(.)$ using posterior means and standard deviations of each subset, obtained the average of these estimates, and find the mean of those averages. The only difference between **average corner** and **average random** method is that the subset areas are chosen differently.
+Finally, we examined whether incorporating considering different subset areas in the square grid would improve the **average center** and **average ll** methods. Therefore, we established two methods named, **average corner** and **average random** methods. We computed the $E_{SS}(.)$ and $SD_{SS}(.)$ using posterior means and standard deviations of each subset, obtained the average of these estimates, and find the mean of those averages. The only difference between **average corner** and **average random** method is that the subset areas are chosen differently.
 
 ## Temporal Subset Methods
 
