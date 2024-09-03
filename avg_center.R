@@ -61,7 +61,7 @@ avg_center<-function(sam,pv){
     
     #extracting x_coordinates
     ind_vec_x_p<-c()
-    #extracting indices of the x coordinates which are less than 3.5 and 6.5
+    
     for(i in 1:nrow(sir_mod0$XYcoordinates)){
       test_vec_p<-c(sir_mod0$XYcoordinates[i,])
       if(test_vec_p[1]>xl_p){
