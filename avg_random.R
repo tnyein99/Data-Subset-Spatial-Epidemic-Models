@@ -1,3 +1,15 @@
+##procedures for the code
+##generate epidemic data positioned on the \sqrt n x \sqrt n square grid
+##apply the metropolis-hastings random walk mcmc
+##if the resulting the parameter estimates fail the gweke's diagnostic test or fail to reach the stationary distribution,
+##generate new epidemics until the stationary distribution is reached
+##generate coordinates for the subsets based on the methods
+##create subset areas
+##apply MCMC to subsets
+## find the overall means of the sample and find the absolute difference between sample mean - mean from the overall data
+####repeat the same procedure for twenty times
+##find the mean and sd of the absolute biases
+
 library(dplyr)
 library(reshape2)
 library(ggplot2)
